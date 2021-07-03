@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h3 style="color: blue;">the event Example </h3>
+    <p id="m1" >here</p>
+  <button onclick="document.getElementById('m1').innerHTML= Date()">the time is </button>
+    
+
+  <h1>event using funtion</h1>
+  <script>
+  function myfunction2(){
+
+    document.write(new Date(),"<br>" ,"this is second event ");
+  }
+  
+  </script>
+  <h1>second event</h1>
+  <button onclick="myfunction2();">second event</button>
+</body>
+</html>
